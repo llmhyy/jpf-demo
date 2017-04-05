@@ -1,6 +1,0 @@
-target=org.apache.commons.math.random.RandomDataImpl
-report.console.property_violation=error,trace,snapshot
-listener=gov.nasa.jpf.listener.EndlessLoopDetector
-classpath=E:\\workspace\\JPF\\data\\apache-common-math-2.2\\bin
-sourcepath=E:\\workspace\\JPF\\data\\apache-common-math-2.2\\src\\main,E:\\workspace\\JPF\\data\\apache-common-math-2.2\\src\\test
-report.console.property_violation=error,trace
