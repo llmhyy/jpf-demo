@@ -28,5 +28,33 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="libs/RunTest.jar"/>
+	<classpathentry kind="lib" path="libs/lib/aima-core.jar"/>
+	<classpathentry kind="lib" path="libs/lib/automaton.jar"/>
+	<classpathentry kind="lib" path="libs/lib/bcel.jar"/>
+	<classpathentry kind="lib" path="libs/lib/choco-1_2_04.jar"/>
+	<classpathentry kind="lib" path="libs/lib/choco-solver-2.1.1-20100709.142532-2.jar"/>
+	<classpathentry kind="lib" path="libs/lib/classloader_specific_tests.jar"/>
+	<classpathentry kind="lib" path="libs/lib/com.microsoft.z3.jar"/>
+	<classpathentry kind="lib" path="libs/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="libs/lib/commons-math-1.2.jar"/>
+	<classpathentry kind="lib" path="libs/lib/coral.jar"/>
+	<classpathentry kind="lib" path="libs/lib/grappa.jar"/>
+	<classpathentry kind="lib" path="libs/lib/green.jar"/>
+	<classpathentry kind="lib" path="libs/lib/hampi.jar"/>
+	<classpathentry kind="lib" path="libs/lib/iasolver.jar"/>
+	<classpathentry kind="lib" path="libs/lib/jaxen.jar"/>
+	<classpathentry kind="lib" path="libs/lib/jedis-2.0.0.jar"/>
+	<classpathentry kind="lib" path="libs/lib/JSAP-2.1.jar"/>
+	<classpathentry kind="lib" path="libs/lib/libcvc3.jar"/>
+	<classpathentry kind="lib" path="libs/lib/opt4j-2.4.jar"/>
+	<classpathentry kind="lib" path="libs/lib/org.sat4j.core.jar"/>
+	<classpathentry kind="lib" path="libs/lib/org.sat4j.pb.jar"/>
+	<classpathentry kind="lib" path="libs/lib/proteus.jar"/>
+	<classpathentry kind="lib" path="libs/lib/scale.jar"/>
+	<classpathentry kind="lib" path="libs/lib/solver.jar"/>
+	<classpathentry kind="lib" path="libs/lib/Statemachines.jar"/>
+	<classpathentry kind="lib" path="libs/lib/STPJNI.jar"/>
+	<classpathentry kind="lib" path="libs/lib/string.jar"/>
+	<classpathentry kind="lib" path="libs/lib/yicesapijava.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
