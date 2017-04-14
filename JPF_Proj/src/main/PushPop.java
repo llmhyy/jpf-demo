@@ -10,7 +10,7 @@ public class PushPop {
      * @param print
      * @return
      */
-    public static boolean push_pop(Queue<Integer> pushQ, Queue<Integer> popQ, boolean print){
+    public static boolean push_pop(Queue<Integer> pushQ, Queue<Integer> popQ, boolean print, boolean log, int x, double y){
         Stack<Integer> stack = new Stack<>();
         if (pushQ.size() < popQ.size())
             return false;
@@ -36,6 +36,11 @@ public class PushPop {
                 System.out.print("\t-----------> pop "+pop+"\n");
                 System.out.print("===============\n");
             }
+            if (log) {
+				System.err.println(x);
+			}else {
+				System.err.println(y);				
+			}
         }
         return true;
     }
@@ -59,9 +64,9 @@ public class PushPop {
 
     static String seperator = " ";
     public static void main(String[] args){
-        String push = "5 4 3 2 1", pop = "4 5 3 2 1";
+        String push = "6 4 3 2 1", pop = "4 6 3 2 1";
         Queue<Integer> pushQ = createQ(push), popQ = createQ(pop);
-        System.out.println(PushPop.push_pop(pushQ, popQ, true));
+        System.out.println(PushPop.push_pop(pushQ, popQ, true, true, 6, 1.1));
     }
 
     private static Queue<Integer> createQ(String str) {
