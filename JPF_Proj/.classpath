@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src/main"/>
 	<classpathentry kind="src" path="src/tests"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-openjdk-amd64"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_45"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="libs/aima-core.jar"/>
 	<classpathentry kind="lib" path="libs/antlr-3.4-complete.jar"/>
@@ -27,13 +27,14 @@
 	<classpathentry kind="lib" path="libs/jedis-2.0.0.jar"/>
 	<classpathentry kind="lib" path="libs/jpf-annotations.jar"/>
 	<classpathentry kind="lib" path="libs/jpf-classes.jar"/>
-	<classpathentry kind="lib" path="libs/jpf-jdart-annotations.jar"/>
-	<classpathentry kind="lib" path="libs/jpf-jdart-classes.jar"/>
-	<classpathentry kind="lib" path="libs/jpf-jdart.jar"/>
 	<classpathentry kind="lib" path="libs/jpf-symbc-annotations.jar"/>
 	<classpathentry kind="lib" path="libs/jpf-symbc-classes.jar"/>
 	<classpathentry kind="lib" path="libs/jpf-symbc.jar"/>
-	<classpathentry kind="lib" path="libs/jpf.jar"/>
+	<classpathentry kind="lib" path="libs/jpf.jar" sourcepath="E:/workspace/JPF/jpf_src/jpf-core">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="libs/JSAP-2.1.jar"/>
 	<classpathentry kind="lib" path="libs/libcvc3.jar"/>
 	<classpathentry kind="lib" path="libs/opt4j-2.4.jar"/>

@@ -165,6 +165,6 @@ public class Input {
 	} catch(AssertionError ex) {}
 	inst.bar(1.732);
     inst.zoo(1, (short)2, (float)1.414);
-	inst.baz(new Data(37, 42));
+//	inst.baz(new Data(37, 42));
   }
 }
